@@ -1,0 +1,61 @@
+ul{
+    background: #D3D4DA;
+    color: #444;
+    list-style-image: url('../image/forward.png');
+    
+}
+
+li {
+    
+    display: inline-block;
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+a:hover{
+    color:blueviolet;
+}
+a {
+    color: black;
+}
+table{
+    margin: auto;
+    border-spacing: 0 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    text-align: center;
+}
+th {
+    padding: 10px;
+    color: brown;
+    border-right: 2px solid;
+    background: burlywood;
+}
+th:last-child {
+    border-right: none;
+}
+
+td {
+    
+    padding: 10px;
+    background: #D8E6F3;
+    text-align: center;
+    border-top: 2px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D;
+}
+
+td:first-child {
+        border-left: 2px solid #56433D;
+        border-right: none;
+}
+.fotr {
+    text-align: center;
+    margin-right: 150px;
+}
+.hme{
+
+    font-size: 50px;
+}
