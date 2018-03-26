@@ -1,0 +1,125 @@
+
+
+.t6-sprite {
+    background: url("../image/spice-social-gadget-sprite.png");
+}
+
+.t6-sprite_size-m{
+    margin: 9px;
+    width: 32px;
+    height: 32px;
+    background-size: 352px 96px;
+    border-radius: 8px;
+}
+
+.t6-sprite_border-grey{
+    border: solid 1px #555;
+}
+
+.t6-sprite__facebook_position-greyicon {
+    background-position: 0 0;
+ }
+
+ .t6-sprite__flickr_position-greyicon {
+    background-position: -32px 0;
+ }
+
+ .t6-sprite__dribbble_position-greyicon {
+    background-position: -64px 0;
+ }
+
+ .t6-sprite__google_position-greyicon {
+    background-position: -96px 0;
+ }
+
+ .t6-sprite__linkedin_position-greyicon {
+    background-position: -128px 0;
+ }
+
+ .t6-sprite__pinterest_position-greyicon {
+    background-position: -160px 0;
+ }
+
+ .t6-sprite__news_position-greyicon {
+    background-position: -192px 0;
+ }
+
+ .t6-sprite__skype_position-greyicon {
+    background-position: -224px 0;
+ }
+
+ .t6-sprite__twitter_position-greyicon {
+    background-position: -256px 0;
+ }
+
+.t6-sprite__facebook_position-transparenticon {
+    background-position: 0px -32px;
+ }
+
+ .t6-sprite__flickr_position-transparenticon {
+    background-position: -32px -32px;
+ }
+
+ .t6-sprite__dribbble_position-transparenticon {
+    background-position: -64px -32px;
+ }
+
+ .t6-sprite__google_position-transparenticon {
+    background-position: -96px -32px;
+ }
+
+ .t6-sprite__linkedin_position-transparenticon {
+    background-position: -128px -32px;
+ }
+
+ .t6-sprite__pinterest_position-transparenticon {
+    background-position: -160px -32px;
+ }
+
+ .t6-sprite__news_position-transparenticon {
+    background-position: -192px -32px;
+ }
+
+ .t6-sprite__skype_position-transparenticon {
+    background-position: -224px -32px;
+ }
+
+ .t6-sprite__twitter_position-transparenticon {
+    background-position: -256px -32px;
+ }
+
+ .t6-sprite__facebook_position-blackicon {
+    background-position: 0px -64px;
+ }
+
+ .t6-sprite__flickr_position-blackicon {
+    background-position: -32px -64px;
+ }
+
+ .t6-sprite__dribbble_position-blackicon {
+    background-position: -64px -64px;
+ }
+
+ .t6-sprite__google_position-blackicon {
+    background-position: -96px -64px;
+ }
+
+ .t6-sprite__linkedin_position-blackicon {
+    background-position: -128px -64px;
+ }
+
+ .t6-sprite__pinterest_position-blackicon {
+    background-position: -160px -64px;
+ }
+
+ .t6-sprite__news_position-blackicon {
+    background-position: -192px -64px;
+ }
+
+ .t6-sprite__skype_position-blackicon {
+    background-position: -224px -64px;
+ }
+ 
+ .t6-sprite__twitter_position-blackicon {
+    background-position: -256px -64px;
+ }

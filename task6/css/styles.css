@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Mistral; 
+    src: local("Mistral"), url(../fonts/MISTRAL.ttf); 
+}
+
+.t6-page__layer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+.t6-header__layer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 955px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.t6-header__background-layer{
+    background-color:#f5f5f2;
+}
+
+.t6-header__sprite-layer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -10px;
+    margin-left: -15px;
+    transform: rotate(-5deg);
+}
+
+.t6-header__label{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:999;
+    width: 300px;
+    height: 76px;
+    border: solid 1px #FFF;
+}
+
+.t6-header__label-layer_background{
+    background-color: rgba(254,254,254,0.95);
+}
+
+.t6-label{
+    font-family: Mistral, sans-serif, Times;
+    font-size: 40px;
+    box-shadow: 0 0 1px #cacac9;
+}
+
+.t6-label__text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 289px;
+    height: 66px;
+    border: 2px solid #000;
+}
+
+.t6-label__text-box_shadow{
+    box-shadow: inset -1px -1px grey,
+                -1px -1px grey,
+                0 -1px grey,
+                -1px 0 grey; 
+}
+
+.t6-label__text-box_text-color{
+    color: transparent; 
+    background: url(../image/textpattern.jpg);
+    background-clip: text;
+    -webkit-background-clip:text;
+    background-size: 7%; 
+}
+
+.t6-main__layer{
+    margin: 7px 4px 0 7px;
+}
+
+.t6-main__box{
+    position: relative; 
+    z-index:-1;         
+    width: 940px;
+    height: 117px;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+}
+
+.t6-main__box_theme-black{
+    background-color: #333;  
+}
+
+.t6-main__element-panel{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.t6-main__element-row{
+    margin-top: 7px;
+    
+}
+
+.t6-button{
+    font-family: Arial, Times, Courier;
+    font-weight: bold;
+    color: #FFF;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 2px #000;
+}
+
+.t6-button__layer{
+    position: relative;
+    border-radius: 3px;
+}
+
+.t6-button__layer::before{
+    position:absolute;
+    z-index:-1;
+    top: -1px;
+    left: -1px;
+    padding: 1px;
+    width: 100%;
+    height:100%;
+    border-radius: 3px;
+    content: "";
+}
+
+.t6-button_size-xxxl{
+    width: 107px;
+    height: 24px; 
+}
+
+.t6-button_size-m{
+    width: 58px;
+    height: 14px;
+}
+
+.t6-button_size-s{
+    width: 53px;
+    height: 14px;
+}
+
+.t6-button_size-xs{
+    width: 50px;
+    height: 14px;
+}
+
+.t6-button_size-xl{
+    width: 62px;
+    height: 14px;
+}
+
+.t6-button_size-l{
+    width: 59px;
+    height: 14px;
+}
+
+.t6-button_small-font{
+    font-size: 7px;
+}
+
+.t6-button_big-font{
+    font-size: 16px;
+}
+
+.t6-button_theme-pink{
+    background-image: linear-gradient(to top, #e956ab 0%, #e52094 100%);
+    text-shadow: 0 0 1px #c40877;
+}
+
+.t6-button_theme-pink::before{
+    background-image: linear-gradient(to top, #e743a3 0%, #c40877 100%);
+    box-shadow: 0 0 1px #d185b2;
+}
+
+.t6-button_theme-green{
+    background-image: linear-gradient(to top, #abcc43 0%, #9dc819 100%);
+    text-shadow: 0 0 1px #7d8b52;
+}
+
+.t6-button_theme-green::before{
+    background-image: linear-gradient(to top, #a7ca39 0%, #7d8b52 100%);
+    box-shadow: 0 0 1px #000;
+}
+
+.t6-button_theme-blue{
+    background-image: linear-gradient(to top, #5d9ee9 0%, #3f8fe9 100%);
+    text-shadow: 0 0 1px #2471c8;
+}
+
+.t6-button_theme-blue::before{
+    background-image: linear-gradient(to top, #4a95e9 0%, #2471c8 100%);
+}
+
+.t6-button_theme-red{
+    background-image: linear-gradient(to top, #ec5b5b 0%, #eb3d3d 100%);
+    text-shadow: 0 0 1px #cb2222;
+}
+
+.t6-button_theme-red::before{
+    background-image: linear-gradient(to top, #ea4949 0%, #cb2222 100%);
+}
+
+.t6-button_theme-orange{
+    background-image: linear-gradient(to top, #ff823e 0%, #ff6e1a 100%);
+    text-shadow: 0 0 1px #e15000;
+}
+
+.t6-button_theme-orange::before{
+    background-image: linear-gradient(to top, #ff7628 0%, #e15000 100%);
+}
+
+.t6-button_theme-yellow{
+    background-image: linear-gradient(to top, #ffc74c 0%, #ffbe2d 100%);
+    text-shadow: 0 0 1px #e19f12;
+}
+
+.t6-button_theme-yellow::before{
+    background-image: linear-gradient(to top, #ffc139 0%, #e19f12 100%);
+}
+
