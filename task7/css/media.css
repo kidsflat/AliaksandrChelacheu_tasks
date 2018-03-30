@@ -1,0 +1,172 @@
+@media screen and (max-width: 550px) {
+    .pj-wrapper__footer-copyright {
+        display: flex;
+        width: 70%;
+        justify-content: center;
+    }
+    .pj-header__home {
+        width: 100vh;
+    }
+}
+@media screen and (max-width: 770px) {
+    .pj-btn_theme-start {
+        padding: 5px 10px;
+    }
+    .pj-feedback-form__btn {
+        min-height: 45px;
+        min-width: 160px;
+        border-radius: 25px;
+    }
+    .pj-header__logo {
+        display: none;
+    }
+    .pj-header__nav {
+        display: flex;
+    }
+    .pj-header__home{
+        width: 100vh;
+    }
+
+    .pj-nav__list {
+        flex-direction: column;
+    }
+    .pj-header__intro-text {
+        margin: 0 10px;
+    }
+    .pj-header__start-btn {
+        margin-top: 10px;
+    }
+    .pj-main__feedback-img {
+        width: 100%;
+        min-height: 400px;
+    }
+    .pj-main__feedback-form {
+        margin: 47px 47px 0 32px;
+    }
+    .pj-main__testimonial-text {
+        width: 100%;
+    }
+    .pj-main__testimonial {
+        min-height: 600px;
+    }
+    .pj-main__progress-details {
+        width: 100%;
+    }
+    .pj-main__progress-view {
+        width: 100%;
+    }
+    .pj-main__progress-img {
+        width: 100%;
+    }
+    .pj-main__progress {
+        width: 100%;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .pj-main__contact-info {
+        width: 100%;
+    }
+    .pj-wrapper__footer {
+        width: 100%;
+        min-height: 100px;
+    }
+    .pj-wrapper__footer-socials {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    .pj-header__logo {
+        width: 20%;
+    }
+    .pj-header__nav {
+        width: 80%;
+    }
+    .pj-header__home {
+        width: 100vh;
+    }
+}
+
+
+@media screen and (max-width: 1024px)   {
+    .pj-header__part {
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    
+    .pj-header__home{
+        width: 100vh;
+    }
+    
+    .pj-header__intro {
+        width: 100%;
+    }
+    .pj-main__feedback-img {
+        width: 50%;
+        min-height: 750px;
+    }
+    .pj-main__feedback {
+        min-height: 600px;
+        width: 100%;
+    }
+    .pj-main__contact {
+        flex-flow: wrap;
+    }
+    .pj-main__contact-info {
+        width: 50%;
+        min-height: 750px;
+    }
+    .pj-main__testimonial-text {
+        width: 80%;
+    }
+    .pj-main__edu-text {
+        width: 100%;
+    }
+    .pj-main__edu-img {
+        width: 100%;
+    }
+    .pj-main__iphone-text {
+        width: 100%;
+    }
+    .pj-main__iphone-img {
+        width: 100%;
+    }
+    .pj-main__progress-details {
+        width: 50%;
+    }
+    .pj-main__progress {
+        width: 100%;
+    }
+    .pj-main__about {
+        width: 100%;
+    }
+    .pj-main__row {
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .pj-wrapper__footer-socials {
+        width: 30%;
+    }
+    .pj-wrapper__footer {
+        width: 100%;
+        min-height: 200px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .pj-header__home{
+        width: 50vh;
+    }
+    .pj-wrapper__footer {
+        width: 100%;
+        min-height: 200px;
+    }
+    .pj-main__contact {
+        flex-flow: wrap;
+    }
+
+}
+@media screen and (max-width: 1023px) {
+    .pj-header__home{
+        width: 100vh;
+    }
+
+}
