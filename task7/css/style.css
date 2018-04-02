@@ -3,13 +3,11 @@ html {
 }
 
 body {
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
     margin: 0;
 }
 
-.pj-website {
-    font-family: "Source Sans Pro", sans-serif;
-}
 .pj-website_bg-sets {
     flex-grow: 1;
     background-size: cover;
@@ -246,7 +244,6 @@ body {
 .pj-progress-bar__value_ht {
     width: 80%;
 }
-
 .pj-glyph-item__container {
     padding: 52px 26px;
 }
@@ -514,11 +511,3 @@ body {
     font-size: 1em;
     color: #9c9d98;
 }
-
-
-
-
-
-
-
-
