@@ -91,15 +91,10 @@ body {
 .pj-GetStart__container {
     padding: 40px;
 }
-.pj-GetStart {}
-
-.pj-GetStart__layer {}
 
 .pj-nav__container {
     margin: 0 0 0 50px;
 }
-
-.pj-nav {}
 
 .pj-nav__list {
     display: flex;
@@ -182,10 +177,6 @@ body {
     padding: 52px 36px;
 }
 
-.pj-about-text {}
-
-.pj-about-text__layer {}
-
 .pj-about-text__first-line {
     font-size: 1.75em;
     color: #242829;
@@ -213,7 +204,6 @@ body {
 .pj-skill-progress__container {
     padding: 48px 30px 0 48px;
 }
-
 
 .pj-skill-progress__progress-data {
     display: flex;
@@ -261,7 +251,6 @@ body {
     padding: 52px 26px;
 }
 
-.pj-glyph-item {}
 .pj-glyph-item_content-white {
     color: #fff;
 }
@@ -299,54 +288,47 @@ body {
     height: 386px;
 }
 
-.pj-history__container {
+.pj-exp__container {
     padding: 44px 60px;
 }
 
-.pj-history {
+.pj-exp {
     color: #fff;
 }
 
-.pj-history__layer {}
-
-.pj-history__history-item-container {
+.pj-exp__exp-item-container {
     margin: 60px 0 30px;
 }
-.pj-history__history-item-container_last {
+.pj-exp__exp-item-container_last {
     margin: 0;
 }
 
-.pj-history-item {}
-
-.pj-history-item__layer {
+.pj-exp-item__layer {
     display: flex;
 }
 
-.pj-history__item-icon {
+.pj-exp__item-icon {
     margin: 5px 24px 0 0;
     font-size: 1.875em;
 }
 
-.pj-history__item-content {}
-
-.pj-history__item-title {
+.pj-exp__item-title {
     display: flex;
-    
 }
 
-.pj-history__item-title-name {
+.pj-exp__item-title-name {
     font-size: 1.25em;
     font-weight: 300;
 }
 
-.pj-history__item-title-date {
+.pj-exp__item-title-date {
     margin: auto 0 0 8px;
     font-size: 1em;
     font-weight: 700;
     color: #000;
 }
 
-.pj-history__item-text {
+.pj-exp__item-text {
     margin-top: 16px;
     font-size: 0.875em;
     font-weight: 300;
@@ -360,8 +342,6 @@ body {
 .pj-education-image__layer {
     height: 443px;
 }
-
-.pj-star__container {}
 
 .pj-star {
     background-image: url(../img/6.jpg);
@@ -383,13 +363,13 @@ body {
     font-size: 2.5em;
 }
 
-.pj-star__text-1 {
+.pj-star__first-line {
     margin: 24px 0 36px;
     font-size: 2.25em;
     font-weight: 300;
 }
 
-.pj-star__text-2 {
+.pj-star__second-line {
     font-size: 0.875em;
     color: rgba(255, 255,255, .5);
 }
@@ -402,13 +382,9 @@ body {
     color: #fff;
 }
 
-.pj-form-section__layer {}
-
 .pj-contact-form__container {
     margin: 60px 0 0;
 }
-
-.pj-contact-form {}
 
 .pj-contact-form__layer {
     display: flex;
@@ -472,10 +448,6 @@ body {
     padding: 46px 40px 46px;
 }
 
-.pj-contacts {}
-
-.pj-contacts__layer {}
-
 .pj-contacts__office-title {
     font-size: 1.5em;
     font-weight: 300;
@@ -523,10 +495,6 @@ body {
     height: 378px;
 }
 
-.pj-footer {}
-
-.pj-footer__layer {}
-
 .pj-footer__copyright {
     font-size: 1em;
     color: #9c9d98;
@@ -546,7 +514,6 @@ body {
     font-size: 1em;
     color: #9c9d98;
 }
-
 
 
 
