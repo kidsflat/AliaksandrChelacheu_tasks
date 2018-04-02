@@ -1,19 +1,27 @@
 @font-face {
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro";
+    src: url(../font/SourceSansPro-Light.ttf) format("truetype");
     font-style: normal;
     font-weight: 300;
-    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format('woff2');
-  }
-  @font-face {
-    font-family: 'Source Sans Pro';
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(../font/SourceSansPro-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: 400;
-    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
-  }
-  @font-face {
-    font-family: 'Source Sans Pro';
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(../font/SourceSansPro-SemiBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url(../font/SourceSansPro-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: 700;
-    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2) format('woff2');
-  }
-  
+}
