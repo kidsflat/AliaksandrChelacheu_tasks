@@ -1,0 +1,22 @@
+.pj-nav__container {
+    margin: 0 0 0 50px;
+}
+
+.pj-nav__list {
+    display: flex;
+    list-style: none;
+}
+.pj-nav__item {
+    margin: 0 30px 0 0;
+}
+
+.pj-nav__item-link {
+    font-size: 0.875em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .4s;
+    color: #6d645f;
+}
+.pj-nav__item-link:hover {
+    color: #dca67a;
+}

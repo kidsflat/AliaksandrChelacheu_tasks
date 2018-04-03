@@ -1,0 +1,113 @@
+.pj-form-section__container {
+    padding: 34px 44px 34px 34px;
+}
+
+.pj-form-section {
+    color: #fff;
+}
+
+.pj-contact-form__container {
+    margin: 60px 0 0;
+}
+
+.pj-contact-form__layer {
+    display: flex;
+    flex-direction: column;
+}
+
+.pj-contact-form__field {
+    margin: 0 0 26px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #f59f62;
+    background-color: transparent;
+    font-size: 1.125em;
+    color: #fff;
+    outline: none;
+}
+.pj-contact-form__field::-webkit-input-placeholder {
+    color: #fff;
+} 
+.pj-contact-form__field::-moz-placeholder {
+    color: #fff;
+}
+.pj-contact-form__field:-ms-input-placeholder {
+    color: #fff;
+}
+.pj-contact-form__field_small {
+    height: 42px;
+}
+.pj-contact-form__field_large {
+    height: 160px;
+}
+.pj_contacts__contact-link {
+    color: #e4ae58;
+}
+.pj-contact-form__button {
+    height: 45px;
+    width: 300px;
+    margin: 10px 0 0 12px;
+    border: none;
+    border-radius: 22px;
+    font-size: 1.125em;
+    background-color: #fff;
+    outline: none;
+    transition: .25s;
+}
+.pj-contact-form__button:hover {
+    cursor: pointer;
+    background-color: #e2e2e2;
+}
+
+.pj-contact-image {
+    background-image: url(../img/2.jpg);
+}
+
+.pj-contact-image__wrappper {
+    height: 614px;
+}
+
+.pj-contacts__container {
+    padding: 46px 40px 46px;
+}
+
+.pj-contacts__office-title {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.pj-contacts__office-address {
+    margin: 20px 0 0;
+    font-size: 1.125em;
+    color: rgba(255, 255, 255, .5);
+}
+
+.pj-contacts__contact-title {
+    margin: 34px 0 18px;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.pj-contacts__contact-item {
+    display: flex;
+    margin: 0 0 14px;
+}
+
+.pj-contacts__contact-item-icon {
+    margin: auto 15px auto 0;
+    font-size: 0.875em;
+    color: rgba(255, 255, 255, .5);
+}
+
+.pj-contacts__contact-item-text {
+    font-size: 0.875em;
+}
+.pj-contacts__contact-item-text_color-white {
+    color: rgba(255, 255, 255, .5);
+}
+.pj-contacts__contact-item-text_color-orange {
+    color: #d9aa62;
+}

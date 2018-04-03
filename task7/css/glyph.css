@@ -1,0 +1,32 @@
+.pj-glyph-item__container {
+    padding: 52px 26px;
+}
+
+.pj-glyph-item_content-white {
+    color: #fff;
+}
+.pj-glyph-item_content-black {
+    color: #000;
+}
+
+.pj-glyph-item__layer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pj-glyph-item__item-icon {
+   font-size: 2.5em;
+}
+
+.pj-glyph-item__item-title {
+    margin: 32px 0 16px;
+    font-size: 1.25em;
+}
+
+.pj-glyph-item__item-text {
+    max-width: 100%;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+}

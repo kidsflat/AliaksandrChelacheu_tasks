@@ -1,0 +1,54 @@
+.pj-exp-image {
+    background-image: url(../img/4.jpg);
+}
+
+.pj-exp-image__layer {
+    height: 386px;
+}
+
+.pj-exp__container {
+    padding: 44px 60px;
+}
+
+.pj-exp {
+    color: #fff;
+}
+
+.pj-exp__exp-item-container {
+    margin: 60px 0 30px;
+}
+.pj-exp__exp-item-container_last {
+    margin: 0;
+}
+
+.pj-exp-item__layer {
+    display: flex;
+}
+
+.pj-exp__item-icon {
+    margin: 5px 24px 0 0;
+    font-size: 1.875em;
+}
+
+.pj-exp__item-title {
+    display: flex;
+}
+
+.pj-exp__item-title-name {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.pj-exp__item-title-date {
+    margin: auto 0 0 8px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #000;
+}
+
+.pj-exp__item-text {
+    margin-top: 16px;
+    font-size: 0.875em;
+    font-weight: 300;
+    line-height: 20px;
+}

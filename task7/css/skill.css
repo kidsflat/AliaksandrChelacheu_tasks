@@ -1,0 +1,53 @@
+.pj-skill-photo {
+    background-image: url(../img/1.jpg);
+}
+
+.pj-skill-photo__layer {
+    height: 344px;
+}
+
+.pj-skill-progress__container {
+    padding: 48px 30px 0 48px;
+}
+
+.pj-skill-progress__progress-data {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 0;
+}
+
+.pj-skill-progress__progress-data-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px;
+}
+
+.pj-skill-progress__progress-data-name {
+    font-size: 0.875em;
+    font-weight: 600;
+    color: #000;
+}
+
+.pj-skill-progress__progress-data-value {
+    font-size: 0.875em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.pj-progress-bar {
+    background-color: #fff;
+}
+
+.pj-progress-bar__value {
+    height: 3px;
+    background-color: #000;
+}
+.pj-progress-bar__value_fd {
+    width: 90%;
+}
+.pj-progress-bar__value_bp {
+    width: 70%;
+}
+.pj-progress-bar__value_ht {
+    width: 80%;
+}

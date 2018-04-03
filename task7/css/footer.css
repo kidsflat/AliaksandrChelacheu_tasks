@@ -1,0 +1,26 @@
+.pj-footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 378px;
+}
+
+.pj-footer__copyright {
+    font-size: 1em;
+    color: #9c9d98;
+}
+.pj-footer__copyright_color-orange {
+    color: #d9aa62;
+}
+
+.pj-footer__social {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    margin: 40px auto 0;
+}
+
+.pj-footer__social-icon {
+    font-size: 1em;
+    color: #9c9d98;
+}

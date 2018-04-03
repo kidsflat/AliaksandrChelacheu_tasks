@@ -1,0 +1,19 @@
+.pj-about-text__container {
+    padding: 52px 36px;
+}
+
+.pj-about-text__first-line {
+    font-size: 1.75em;
+    color: #242829;
+}
+.pj-about-text__second-line {
+    margin: 22px 0 34px;
+    font-size: 1em;
+    color: #dca67a;
+}
+.pj-about-text__third-line {
+    margin: 16px 0 0;
+    font-size: 1em;
+    line-height: 22px;
+    color: #a7948e;
+}

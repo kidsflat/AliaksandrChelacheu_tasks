@@ -1,0 +1,73 @@
+.pj-GetStart-photo {
+    background-image: url(../img/5.jpg);
+}
+
+.pj-GetStart-photo__layer {
+    height: 819px;
+    padding: 32px 0 0 24%;
+    box-sizing: border-box;
+}
+
+.pj-GetStart-photo__text {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-shadow: 1px 1px #FFF;
+}
+
+.pj-GetStart__container {
+    padding: 40px;
+}
+
+
+
+.pj-GetStart__content {
+    margin: 180px 0 0;
+}
+
+.pj-GetStart__first-line {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: #a7948e;
+}
+
+.pj-GetStart__second-line {
+    margin: 22px 0;
+    font-size: 2.25em;
+    font-weight: 300;
+    line-height: 40px;
+    color: #242829;
+}
+.pj-GetStart__second-line_second-bold {
+    font-weight: bold;
+}
+.pj-GetStart__second-line_second-nowrap {
+    white-space: nowrap;
+}
+
+.pj-GetStart__third-line {
+    font-size: 1em;
+    line-height: 22px;
+    color: #a7948e;
+}
+
+.pj-GetStart__button {
+    height: 43px;
+    width: 167px;
+    margin: 50px 0 0;
+    border: 3px solid #242829;
+    border-radius: 24px;
+    background-color: transparent;
+    outline: none;
+    font-size: 0.75em;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .4s;
+    color: #242829;
+}
+.pj-GetStart__button:hover {
+    cursor: pointer;
+    color: #6f797b;
+    border-color: #6f797b;
+}

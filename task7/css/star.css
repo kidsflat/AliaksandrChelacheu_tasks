@@ -1,0 +1,30 @@
+.pj-star {
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pj-star__layer {
+    height: 480px;
+    padding: 130px 0 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.pj-star__star-icon {
+    font-size: 2.5em;
+}
+
+.pj-star__first-line {
+    margin: 24px 0 36px;
+    font-size: 2.25em;
+    font-weight: 300;
+}
+
+.pj-star__second-line {
+    font-size: 0.875em;
+    color: rgba(255, 255,255, .5);
+}
