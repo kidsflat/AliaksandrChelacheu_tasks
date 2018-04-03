@@ -1,14 +1,3 @@
-@import url('about.css');
-@import url('contact.css');
-@import url('education.css');
-@import url('exp.css');
-@import url('footer.css');
-@import url('getstarted.css');
-@import url('glyph.css');
-@import url('nav.css');
-@import url('skill.css');
-@import url('star.css');
-
 html {
     scroll-behavior: smooth;
 }
